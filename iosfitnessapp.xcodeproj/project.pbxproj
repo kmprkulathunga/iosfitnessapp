@@ -13,6 +13,7 @@
 		9F6C36CC2A153612000EA7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CA2A153612000EA7B9 /* Main.storyboard */; };
 		9F6C36CE2A153613000EA7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CD2A153613000EA7B9 /* Assets.xcassets */; };
 		9F6C36D12A153613000EA7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CF2A153613000EA7B9 /* LaunchScreen.storyboard */; };
+		9F6C36D92A153701000EA7B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F6C36CD2A153613000EA7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6C36D02A153613000EA7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6C36D22A153613000EA7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9F6C36CD2A153613000EA7B9 /* Assets.xcassets */,
 				9F6C36CF2A153613000EA7B9 /* LaunchScreen.storyboard */,
 				9F6C36D22A153613000EA7B9 /* Info.plist */,
+				9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */,
 			);
 			path = iosfitnessapp;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6C36D12A153613000EA7B9 /* LaunchScreen.storyboard in Resources */,
+				9F6C36D92A153701000EA7B9 /* GoogleService-Info.plist in Resources */,
 				9F6C36CE2A153613000EA7B9 /* Assets.xcassets in Resources */,
 				9F6C36CC2A153612000EA7B9 /* Main.storyboard in Resources */,
 			);
