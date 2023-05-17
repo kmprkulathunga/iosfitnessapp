@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>778295903909-1p5h5oe9n5fnsf43huib7a63fmshq5vj.apps.googleusercontent.com</string>
+	<string>671516080729-2gcvoqrqm25j21a54p179olc9gnfgpq7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.778295903909-1p5h5oe9n5fnsf43huib7a63fmshq5vj</string>
+	<string>com.googleusercontent.apps.671516080729-2gcvoqrqm25j21a54p179olc9gnfgpq7</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD0RKlirSLX8hmPniRihbE5yncx4JudJX0</string>
+	<string>AIzaSyD56OeycDUJerZ3rQR43751WndmYCeTOaw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>778295903909</string>
+	<string>671516080729</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>cobsccomp212p064</string>
+	<string>cobsccomp212p-064.iosfitnessapp</string>
 	<key>PROJECT_ID</key>
-	<string>iosfitnessapp-83907</string>
+	<string>iosfitnessapp-5643b</string>
 	<key>STORAGE_BUCKET</key>
-	<string>iosfitnessapp-83907.appspot.com</string>
+	<string>iosfitnessapp-5643b.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:778295903909:ios:77c5ced224efade1a4af4c</string>
+	<string>1:671516080729:ios:2ed28d09890671b4938f48</string>
 </dict>
 </plist>

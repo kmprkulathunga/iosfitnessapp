@@ -13,7 +13,6 @@
 		9F6C36CC2A153612000EA7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CA2A153612000EA7B9 /* Main.storyboard */; };
 		9F6C36CE2A153613000EA7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CD2A153613000EA7B9 /* Assets.xcassets */; };
 		9F6C36D12A153613000EA7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36CF2A153613000EA7B9 /* LaunchScreen.storyboard */; };
-		9F6C36D92A153701000EA7B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */; };
 		9F6C36DC2A1538D4000EA7B9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C36DB2A1538D4000EA7B9 /* FirebaseAnalytics */; };
 		9F6C36DE2A1538D4000EA7B9 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C36DD2A1538D4000EA7B9 /* FirebaseAnalyticsOnDeviceConversion */; };
 		9F6C36E02A1538D4000EA7B9 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C36DF2A1538D4000EA7B9 /* FirebaseAnalyticsSwift */; };
@@ -41,6 +40,7 @@
 		9F6C370C2A1538D5000EA7B9 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C370B2A1538D5000EA7B9 /* FirebaseRemoteConfigSwift */; };
 		9F6C370E2A1538D5000EA7B9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C370D2A1538D5000EA7B9 /* FirebaseStorage */; };
 		9F6C37102A1538D5000EA7B9 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6C370F2A1538D5000EA7B9 /* FirebaseStorageCombine-Community */; };
+		9F6C37122A154E46000EA7B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C37112A154E46000EA7B9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,7 @@
 		9F6C36CD2A153613000EA7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6C36D02A153613000EA7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6C36D22A153613000EA7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F6C37112A154E46000EA7B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,7 @@
 		9F6C36C32A153612000EA7B9 /* iosfitnessapp */ = {
 			isa = PBXGroup;
 			children = (
+				9F6C37112A154E46000EA7B9 /* GoogleService-Info.plist */,
 				9F6C36C42A153612000EA7B9 /* AppDelegate.swift */,
 				9F6C36C62A153612000EA7B9 /* SceneDelegate.swift */,
 				9F6C36C82A153612000EA7B9 /* ViewController.swift */,
@@ -119,7 +120,6 @@
 				9F6C36CD2A153613000EA7B9 /* Assets.xcassets */,
 				9F6C36CF2A153613000EA7B9 /* LaunchScreen.storyboard */,
 				9F6C36D22A153613000EA7B9 /* Info.plist */,
-				9F6C36D82A153700000EA7B9 /* GoogleService-Info.plist */,
 			);
 			path = iosfitnessapp;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6C36D12A153613000EA7B9 /* LaunchScreen.storyboard in Resources */,
-				9F6C36D92A153701000EA7B9 /* GoogleService-Info.plist in Resources */,
+				9F6C37122A154E46000EA7B9 /* GoogleService-Info.plist in Resources */,
 				9F6C36CE2A153613000EA7B9 /* Assets.xcassets in Resources */,
 				9F6C36CC2A153612000EA7B9 /* Main.storyboard in Resources */,
 			);
@@ -379,6 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iosfitnessapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iosfitnessapp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -406,6 +407,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iosfitnessapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iosfitnessapp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
