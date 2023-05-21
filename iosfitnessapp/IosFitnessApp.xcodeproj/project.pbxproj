@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		093DEBCE2A1A083400279D38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEBCD2A1A083400279D38 /* AppDelegate.swift */; };
 		093DEBD02A1A083400279D38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEBCF2A1A083400279D38 /* SceneDelegate.swift */; };
-		093DEBD22A1A083400279D38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEBD12A1A083400279D38 /* ViewController.swift */; };
 		093DEBD72A1A085700279D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093DEBD62A1A085700279D38 /* Assets.xcassets */; };
 		093DEBDA2A1A085700279D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093DEBD82A1A085700279D38 /* LaunchScreen.storyboard */; };
 		093DEBE52A1A085800279D38 /* IosFitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEBE42A1A085800279D38 /* IosFitnessAppTests.swift */; };
 		093DEBF02A1A085800279D38 /* IosFitnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEBEF2A1A085800279D38 /* IosFitnessAppUITests.swift */; };
 		093DEC1F2A1A0BB000279D38 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 093DEC1E2A1A0BB000279D38 /* Kingfisher */; };
 		093DEC242A1A154D00279D38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093DEC232A1A154D00279D38 /* GoogleService-Info.plist */; };
+		093DEC322A1A171200279D38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC2B2A1A171100279D38 /* ViewController.swift */; };
+		093DEC332A1A171200279D38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC2C2A1A171100279D38 /* LoginViewController.swift */; };
+		093DEC342A1A171200279D38 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC2D2A1A171100279D38 /* ExerciseViewController.swift */; };
+		093DEC352A1A171200279D38 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC2E2A1A171200279D38 /* RegisterViewController.swift */; };
+		093DEC362A1A171200279D38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC2F2A1A171200279D38 /* ProfileViewController.swift */; };
+		093DEC372A1A171200279D38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC302A1A171200279D38 /* HomeViewController.swift */; };
+		093DEC382A1A171200279D38 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC312A1A171200279D38 /* BMIViewController.swift */; };
+		093DEC412A1A173700279D38 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC3F2A1A173700279D38 /* UserModel.swift */; };
+		093DEC422A1A173700279D38 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC402A1A173700279D38 /* ExerciseModel.swift */; };
+		093DEC472A1A173F00279D38 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC462A1A173F00279D38 /* Controller.swift */; };
+		093DEC4D2A1A1AC000279D38 /* ExerciseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093DEC4C2A1A1ABF00279D38 /* ExerciseTableCell.swift */; };
 		14578D0AA52B78B7DDD1EC92 /* Pods_IosFitnessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F512200D1AB5827725D9ED3 /* Pods_IosFitnessApp.framework */; };
 		21F2863DD055D6F96C27BD96 /* Pods_IosFitnessApp_IosFitnessAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA53CD2BE2AA154880D9BDF /* Pods_IosFitnessApp_IosFitnessAppUITests.framework */; };
 		DB365AE1B185CF64A8B146A0 /* Pods_IosFitnessAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1513DACF97E2FC8CC9EC4C75 /* Pods_IosFitnessAppTests.framework */; };
@@ -42,7 +52,6 @@
 		093DEBCA2A1A083400279D38 /* IosFitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosFitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093DEBCD2A1A083400279D38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		093DEBCF2A1A083400279D38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		093DEBD12A1A083400279D38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		093DEBD62A1A085700279D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		093DEBD92A1A085700279D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		093DEBDB2A1A085700279D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +62,17 @@
 		093DEBEF2A1A085800279D38 /* IosFitnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosFitnessAppUITests.swift; sourceTree = "<group>"; };
 		093DEBF12A1A085800279D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093DEC232A1A154D00279D38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		093DEC2B2A1A171100279D38 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		093DEC2C2A1A171100279D38 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		093DEC2D2A1A171100279D38 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		093DEC2E2A1A171200279D38 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		093DEC2F2A1A171200279D38 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		093DEC302A1A171200279D38 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		093DEC312A1A171200279D38 /* BMIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		093DEC3F2A1A173700279D38 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		093DEC402A1A173700279D38 /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		093DEC462A1A173F00279D38 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		093DEC4C2A1A1ABF00279D38 /* ExerciseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableCell.swift; sourceTree = "<group>"; };
 		1513DACF97E2FC8CC9EC4C75 /* Pods_IosFitnessAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosFitnessAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE628A2816563DF74C63328 /* Pods-IosFitnessAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosFitnessAppTests.debug.xcconfig"; path = "Target Support Files/Pods-IosFitnessAppTests/Pods-IosFitnessAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DA53CD2BE2AA154880D9BDF /* Pods_IosFitnessApp_IosFitnessAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosFitnessApp_IosFitnessAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +138,12 @@
 		093DEBCC2A1A083400279D38 /* IosFitnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				093DEC2A2A1A169100279D38 /* API */,
+				093DEC292A1A168900279D38 /* Model */,
+				093DEC282A1A167A00279D38 /* View */,
 				093DEC232A1A154D00279D38 /* GoogleService-Info.plist */,
 				093DEBCD2A1A083400279D38 /* AppDelegate.swift */,
 				093DEBCF2A1A083400279D38 /* SceneDelegate.swift */,
-				093DEBD12A1A083400279D38 /* ViewController.swift */,
 				093DEBD62A1A085700279D38 /* Assets.xcassets */,
 				093DEBD82A1A085700279D38 /* LaunchScreen.storyboard */,
 				093DEBDB2A1A085700279D38 /* Info.plist */,
@@ -145,6 +167,46 @@
 				093DEBF12A1A085800279D38 /* Info.plist */,
 			);
 			path = IosFitnessAppUITests;
+			sourceTree = "<group>";
+		};
+		093DEC282A1A167A00279D38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				093DEC4B2A1A1A9700279D38 /* TableCell */,
+				093DEC312A1A171200279D38 /* BMIViewController.swift */,
+				093DEC2D2A1A171100279D38 /* ExerciseViewController.swift */,
+				093DEC302A1A171200279D38 /* HomeViewController.swift */,
+				093DEC2C2A1A171100279D38 /* LoginViewController.swift */,
+				093DEC2F2A1A171200279D38 /* ProfileViewController.swift */,
+				093DEC2E2A1A171200279D38 /* RegisterViewController.swift */,
+				093DEC2B2A1A171100279D38 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		093DEC292A1A168900279D38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				093DEC402A1A173700279D38 /* ExerciseModel.swift */,
+				093DEC3F2A1A173700279D38 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		093DEC2A2A1A169100279D38 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				093DEC462A1A173F00279D38 /* Controller.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		093DEC4B2A1A1A9700279D38 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				093DEC4C2A1A1ABF00279D38 /* ExerciseTableCell.swift */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 		1A87687EFDB131B7D45C1E40 /* Pods */ = {
@@ -414,9 +476,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093DEBD22A1A083400279D38 /* ViewController.swift in Sources */,
+				093DEC352A1A171200279D38 /* RegisterViewController.swift in Sources */,
 				093DEBCE2A1A083400279D38 /* AppDelegate.swift in Sources */,
+				093DEC382A1A171200279D38 /* BMIViewController.swift in Sources */,
+				093DEC4D2A1A1AC000279D38 /* ExerciseTableCell.swift in Sources */,
+				093DEC472A1A173F00279D38 /* Controller.swift in Sources */,
+				093DEC322A1A171200279D38 /* ViewController.swift in Sources */,
+				093DEC332A1A171200279D38 /* LoginViewController.swift in Sources */,
+				093DEC372A1A171200279D38 /* HomeViewController.swift in Sources */,
+				093DEC342A1A171200279D38 /* ExerciseViewController.swift in Sources */,
+				093DEC362A1A171200279D38 /* ProfileViewController.swift in Sources */,
+				093DEC412A1A173700279D38 /* UserModel.swift in Sources */,
 				093DEBD02A1A083400279D38 /* SceneDelegate.swift in Sources */,
+				093DEC422A1A173700279D38 /* ExerciseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
