@@ -1,8 +1,7 @@
 //
 //  ViewController.swift
-//  iosfitnessapp
+//  IosFitnessApp
 //
-//  Created by ShitOS on 17/05/2023.
 //
 
 import UIKit
