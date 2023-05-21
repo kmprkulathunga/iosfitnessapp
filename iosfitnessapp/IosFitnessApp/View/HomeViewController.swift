@@ -96,7 +96,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             
             heading.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
             heading.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
-            
             FavouriteTableView.topAnchor.constraint(equalTo: heading.bottomAnchor, constant: 10),
             FavouriteTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
             FavouriteTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
