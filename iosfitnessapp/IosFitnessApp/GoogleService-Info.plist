@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>671516080729-l2e5q9j97d3lhrauv5uo77014fg1t720.apps.googleusercontent.com</string>
+	<string>671516080729-2gcvoqrqm25j21a54p179olc9gnfgpq7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.671516080729-l2e5q9j97d3lhrauv5uo77014fg1t720</string>
+	<string>com.googleusercontent.apps.671516080729-2gcvoqrqm25j21a54p179olc9gnfgpq7</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD56OeycDUJerZ3rQR43751WndmYCeTOaw</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.kulathunga.IosFitnessApp</string>
+	<string>cobsccomp212p-064.iosfitnessapp</string>
 	<key>PROJECT_ID</key>
 	<string>iosfitnessapp-5643b</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:671516080729:ios:e7c87b745b425b30938f48</string>
+	<string>1:671516080729:ios:2ed28d09890671b4938f48</string>
 	<key>DATABASE_URL</key>
 	<string>https://iosfitnessapp-5643b-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
