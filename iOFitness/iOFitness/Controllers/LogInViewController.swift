@@ -58,7 +58,7 @@ class LogInViewController: UIViewController {
                         // User signed in successfully
                         progressHUD.hide(animated: true)
                         print("User signed in:", user)
-//                        self?.navigationController?.setViewControllers([MainTabBarController()], animated: true)
+                        self?.navigationController?.setViewControllers([MainTabBarController()], animated: true)
 
                     case .failure(let error):
                         // Handle sign in error
