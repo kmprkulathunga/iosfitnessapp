@@ -20,7 +20,7 @@ struct UserHealthModel {
         self.weight = weight
         self.age = age
         self.gender = gender
-        self.fitnessGoal = gender
+        self.fitnessGoal = fitnessGoal
         self.updated = updated
     }
 }
