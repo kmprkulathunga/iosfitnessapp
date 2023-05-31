@@ -115,7 +115,7 @@ class HomeView: UIView {
         imageView.image = UIImage(named: "iOFitness")
         titleLabel.text = "iOFitness"
         let currentTimePeriod = GreetingHelper.getCurrentTimePeriod()
-        let currentMood = GreetingHelper.getCurrentMood()
+//        let currentMood = GreetingHelper.getCurrentMood()
         greetingsLabel.text = "\(currentTimePeriod), \(userModel.firstName)!"
         profileSummaryLabel.text = "Profile Summary"
         heightLabel.text = "Height: \(userModel.height)"
