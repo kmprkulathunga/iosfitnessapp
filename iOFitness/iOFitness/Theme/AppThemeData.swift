@@ -53,25 +53,8 @@ class AppThemeData {
     static let colorTextDarkGray = UIColor(hex: 0x333333)
     static let colorTextLightGray = UIColor(hex: 0x757575)
     /// Icon
-    static let colorIconSelected = UIColor(hex: 0xFF5722)
+    static let colorIconSelected = UIColor(hex: 0x38B6FF)
     static let colorIconUnselected = UIColor(hex: 0x333333)
-    
-    // Typography
-    /// Stream
-    static let fontSizeLargeTitle = UIFont(name: "Raleway-Bold", size: 34)
-    static let fontSizeTitle1 = UIFont(name: "Raleway-Bold", size: 27)
-    static let fontSizeTitle2 = UIFont(name: "Raleway-Bold", size: 21)
-    static let fontSizeTitle3 = UIFont(name: "Raleway-SemiBold", size: 19)
-    static let fontSizeHeadline = UIFont(name: "Raleway-SemiBold", size: 17)
-    static let fontSizeBody = UIFont(name: "Raleway-Regular", size: 16)
-    static let fontSizeCallout = UIFont(name: "Raleway-Regular", size: 15)
-    static let fontSizeSubhead = UIFont(name: "Raleway-Regular", size: 14)
-    static let fontSizeFootnote = UIFont(name: "Raleway-Regular", size: 12)
-    static let fontSizeCaption1 = UIFont(name: "Raleway-SemiBold", size: 12)
-    static let fontSizeCaption2 = UIFont(name: "Raleway-Regular", size: 11)
-    /// Button
-    static let fontSizeButton = UIFont(name: "Raleway-SemiBold", size: 16)
-    static let fontSizeTextButton = UIFont(name: "Raleway-SemiBold", size: 16)
     
     // Corner Radius
     /// Button

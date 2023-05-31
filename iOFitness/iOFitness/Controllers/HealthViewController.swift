@@ -50,7 +50,7 @@ class HealthViewController: UIViewController {
     }
     
     private func customizeNavigationBar() {
-        let customFont = AppThemeData.fontSizeHeadline ?? UIFont.systemFont(ofSize: 20)
+        let customFont = UIFont.systemFont(ofSize: 20)
         let attributes: [NSAttributedString.Key: Any] = [
             NSAttributedString.Key.font: customFont,
             NSAttributedString.Key.foregroundColor: AppThemeData.colorTextDarkGray
@@ -155,8 +155,8 @@ class HealthViewController: UIViewController {
             
             if success {
                 print("User signed up and data stored in Firestore")
-//                let homeViewController = MainTabBarController()
-//                self?.navigationController?.setViewControllers([homeViewController], animated: true)
+                let homeViewController = MainTabBarController()
+                self?.navigationController?.setViewControllers([homeViewController], animated: true)
             } else {
                 print("Sign up failed or failed to store user data in Firestore")
                 // Show appropriate error message or handle the error
