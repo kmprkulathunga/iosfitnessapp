@@ -94,8 +94,8 @@ class ProfileViewController: UIViewController {
     // Health
     @objc private func editHealthDetails() {
         print("editHealthDetails...")
-//        let nextViewController = UpdateHealthDetailsViewController(userHealthModel: UserHealthModel(height: userModel!.height, weight: userModel!.weight, age: userModel!.age, gender: userModel!.gender, fitnessGoal: userModel!.fitnessGoal, updated: userModel!.updated))
-//        navigationController?.pushViewController(nextViewController, animated: true)
+        let nextViewController = UpdateProfileViewController(userHealthModel: UserHealthModel(height: userModel!.height, weight: userModel!.weight, age: userModel!.age, gender: userModel!.gender, fitnessGoal: userModel!.fitnessGoal, updated: userModel!.updated))
+        navigationController?.pushViewController(nextViewController, animated: true)
     }
     
     // SignOut
